@@ -1,0 +1,35 @@
+
+.footer_wrapper{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-top: 10%;
+}
+
+.footer_wrapper svg{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.footer_content{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	justify-content: space-between;
+
+}
+
+.footer_content div{
+	width: 100%;
+	padding: 2.5%;
+	font-size: 24px;
+	border: 1px solid black;
+}
+
+.footer_content div>*{
+	margin: auto;
+}

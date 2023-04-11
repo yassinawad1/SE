@@ -1,0 +1,11 @@
+ 
+<section class="sect1_wrapper">
+	<div class="sect1_content">
+		<h1>Consultants</h1>
+		<div class="container">
+			<div *ngFor="let consultant of consultants; index as i;">
+				<p>{{consultant.firstName}} {{ consultant.lastName}}</p>
+			</div>
+		</div>
+	</div>
+</section>

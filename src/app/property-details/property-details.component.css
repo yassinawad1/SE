@@ -1,0 +1,111 @@
+
+
+.sect1_wrapper{
+/*	background-color: pink;*/
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding-top: 7.5%;
+}
+
+
+.sect1_content{
+/*	background-color: blueviolet;*/
+	position: relative;
+	display: flex;
+	width: 60%;
+	height: auto;
+	margin: auto;
+}
+
+.sect1_content img{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.sect2_wrapper{
+/*	background-color: pink;*/
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+
+.sect2_content{
+/*	background-color: blueviolet;*/
+	position: relative;
+	display: block;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-right: 0;
+}
+
+.sect2_content .info{
+	display: flex;
+	padding: 0 5%;
+	justify-content: space-between;
+	font-size: 32px;
+
+}
+
+.sect2_content .details{
+/*	background-color: teal;*/
+	display: flex;
+	padding: 5%;
+	justify-content: space-between;
+	font-size: 24px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.sect2_content .details .container{
+/*	background-color: orange;*/
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.sect2_content .details .container div{
+/*	background-color: pink;*/
+	display: flex;
+	margin: auto 0;
+	width: 30%;
+	justify-content: center;
+}
+
+.sect2_content .details .container div>*{
+	margin: auto 2%;
+}
+
+.sect2_content .extra{
+	font-size: 24px;
+}
+
+
+.sect2_wrapper .options{
+/*	background-color: pink;*/
+	position: relative;
+	display: block;
+	width: 20%;
+	padding: 0 2.5%;
+}
+
+.sect2_wrapper .options svg{
+	margin: auto;
+}
+
+.sect2_wrapper .options button{
+	position: relative;
+	display: flex;
+	width: 100%;
+	margin-bottom: 2%;
+	justify-content: space-around;
+}
+
+.sect2_wrapper .options button>*{
+	margin: auto 0;
+}

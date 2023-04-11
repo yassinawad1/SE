@@ -1,0 +1,26 @@
+
+<section class="sect1_wrapper">
+	<div class="sect1_content">
+		<form [formGroup]="getDetails" (ngSubmit)="updateUser()">
+			<div>
+				<legend>First Name</legend>
+				<input type="text" formControlName="firstName" [(ngModel)]="consultant.firstName">
+			</div>
+			<div>
+				<legend>Last Name</legend>
+				<input type="text" formControlName="lastName" [(ngModel)]="consultant.lastName">
+			</div>
+			<div>
+				<legend>Email</legend>
+				<input type="text" formControlName="email" [(ngModel)]="consultant.email">
+			</div>
+			<div>
+				<legend>Password</legend>
+				<input type="text" formControlName="password" [(ngModel)]="consultant.password">
+			</div>
+			<button>
+				<p>Submit</p>
+			</button>
+		</form>
+	</div>
+</section>

@@ -1,0 +1,169 @@
+
+.sect1_wrapper{
+/*	background-color: pink;*/
+	position: relative;
+	width: 100%;
+/*	height: 60%;*/
+	padding-top: 7.5%;
+}
+
+.sect1_wrapper img{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sect1_content{
+/*	background-color: blueviolet;*/
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 30vw;
+}
+
+.sect1_content .search{
+	background-color: #0A1F49;
+	position: relative;
+	display: block;
+	width: calc(93000vw/1512);
+	height: calc(23000vw/1512);
+	padding: 0 10%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+.sect1_content .search p{
+	position: relative;
+	margin-top: 10%;
+	color: white;
+}
+
+.sect1_content .search .input{
+	background-color: white;
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.sect1_content .search .input input{
+/*	background-color: pink;*/
+	position: relative;
+	display: block;
+	width: 80%;
+	height: auto;
+	padding-left: 2%;
+	border: none;
+}
+
+.sect1_content .search .input button{
+	background-color: #0A1F49;
+	position: relative;
+	display: block;
+	width: 10%;
+	padding: 1% 0;
+	margin: auto;
+	color: white;
+	border: none;
+}
+
+.sect1_content .search .input svg{
+	position: relative;
+	width: 3%;
+	margin: auto;
+}
+
+
+.sect2_wrapper{
+/*	background-color: pink;*/
+	position: relative;
+	width: 100%;
+/*	height: 60%;*/
+}
+
+.sect2_content{
+/*	background-color: blueviolet;*/
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+	flex-wrap: wrap;
+}
+
+.sect2_content .properties{
+/*	background-color: teal;*/
+	width: 60%;
+	margin-left: 10%;
+}
+
+.sect2_content .properties .property{
+/*	background-color: red;*/
+	position: relative;
+	display: flex;
+	width: 100%;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.sect2_content .properties .property .img{
+	position: relative;
+	display: block;
+	width: 50%;
+	margin: auto 0;
+
+}
+
+.sect2_content .properties .property .img img{
+	width: 100%;
+}
+
+.sect2_content .properties .property .info{
+/*	background-color: orange;*/
+	position: relative;
+	display: block;
+	width: 45%;
+	margin: auto 0;
+}
+
+.sect2_content .properties .property .info div{
+	display: flex;
+	justify-content: start;
+}
+
+.sect2_content .properties .property .info div p{
+	margin: auto 0;
+}
+
+.sect2_content .properties .property .info div svg{
+	margin: auto;
+	margin-left: 2%;
+}
+
+.sect2_content .options{
+/*	background-color: pink;*/
+	position: relative;
+	display: block;
+	width: 20%;
+	margin-left: 5%;
+}
+
+.sect2_content .options svg{
+	margin: auto;
+}
+
+.sect2_content .options button{
+	position: relative;
+	display: flex;
+	width: 100%;
+	margin-bottom: 2%;
+	justify-content: space-around;
+}
+
+.sect2_content .options button>*{
+	margin: auto 0;
+}

@@ -1,0 +1,234 @@
+
+
+
+.navBar_wrapper{
+  background-color: black;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 2.5% 0;
+  top: 0;
+  left: 0;
+  z-index: 2147483646;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navBar_content{
+/*  background-color: blue;*/
+  position: relative;
+  display: flex;
+  width: calc(131200vw/1512);
+  height: auto;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.navBar_content .hambIcon{
+/*  background-color: pink;*/
+  display: block;
+  width: 5%;
+  margin: auto 0;
+  margin-right: 5%;
+}
+
+
+.navBar_content .hambIcon #menuToggle{
+/*  background-color: blue;*/
+  display: block;
+  position: relative;
+  width:  auto;
+  margin:  auto;
+  margin-top: 0;
+  z-index: 1;
+       user-select: none;
+}
+
+.navBar_content .hambIcon #menuToggle a{
+  text-decoration: none;
+  color: #232323;
+  
+  
+  
+  transition: color 0.3s ease;
+}
+
+
+
+.navBar_content .hambIcon #menuToggle input{
+/*  background-color: red;*/
+  display: block;
+  width: 100%;
+  height: 32px;
+  position: absolute;
+  margin:  auto;
+  
+  cursor: pointer;
+  
+  opacity: 0;
+  z-index: 2;
+  
+}
+
+
+.navBar_content .hambIcon #menuToggle span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin:  auto;
+  /*margin-left: 33.5px;*/
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #EEEFF1;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  
+  
+          transform-origin: 4px 0px;
+  
+  transition: background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease,
+ 
+}
+
+.navBar_content .hambIcon #menuToggle span:first-child{
+          transform-origin: 0% 0%;
+}
+
+.navBar_content .hambIcon #menuToggle span:nth-last-child(2){
+          transform-origin: 0% 100%;
+}
+
+.navBar_content .logoIcon{
+/*  background-color: purple;*/
+  position: relative;
+  display: block;
+  width: calc(11900vw/1512);
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.navBar_content .logoIcon{
+    outline-width: 0;
+}
+
+.navBar_content .logoIcon img{
+  width: 100%;
+}
+
+.mobile_nav{
+/*  background-color: blue;*/
+  position: fixed;
+  display: block;
+  width: 100% !important;
+  height: 100%;
+  padding:  0;
+  transition: margin 0.5s ease-in-out;
+  z-index: 2147483645;
+}
+
+.mobile_nav #navBackground{
+/*  background-color: pink;*/
+  position: absolute;
+  display: block;
+  width:  100%;
+  height: 100%;
+}
+
+.mobile_nav .nav_content{
+  background-color: #A76161;
+  position: relative;
+  display: flex;
+  width:  calc(32800vw/1512);
+  height: 100%;
+  padding-top: calc(18000vw/1512);
+  margin:  0;
+/*  margin-left: calc(10000vw/1920);*/
+      flex-wrap: wrap;
+      /*z-index: 2;*/
+}
+
+
+.mobile_nav .nav_content #menu{
+/*  background-color: teal;*/
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: calc(-1000vw/1512);
+  margin-left: calc(3000vw/1512);
+  /*margin-bottom: 0;*/
+
+  list-style-type: none;
+
+
+
+          transform-origin: 0% 0%;
+  /*transform: translate(-100%, 0);*/
+
+
+
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+  /*z-index: 2147483646;*/
+}
+
+.mobile_nav .nav_content #menu li{
+  /*background-color: pink;*/
+  /*color:  red;*/
+  padding: 10px 0;
+  font-size: calc(2000vw/1512);
+}
+
+.mobile_nav .nav_content #menu a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.mobile_nav .nav_content #menuToggle input:checked ~ ul{
+          transform: none;
+}
+
+.mobile_nav .nav_content #info{
+  /*background-color: blue;*/
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-left: calc(3000vw/1512);
+  navMargin:number =  -100;
+
+  margin-bottom: calc(15000vw/1512);
+  list-style-type: none;
+          transform-origin: 0% 0%;
+  /*transform: translate(-100%, 0);*/
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.mobile_nav .nav_content #info li{
+  letter-spacing: 5px;
+  margin-top: calc(1000vw/1512);
+    font-size: calc(1000vw/1512);
+  color:  white;
+}
+
+@media only screen and (max-width: 600px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navBar_wrapper{
+    height: auto;
+    padding: 5% 0;
+  }
+
+  .navBar_content{
+    justify-content: space-between;
+  }
+
+}
+
